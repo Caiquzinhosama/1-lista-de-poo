@@ -1,0 +1,14 @@
+#recebendo a palavra qual vamos verificar
+palavra = input()
+
+#ler no maximo 50 caracteres
+if len(palavra) <= 50 :
+
+    #inverter a palavra que digitamos
+    palavra_invertida = palavra[::-1]
+    
+    #verificar se a palavra que digitamos é igual a ela inversa
+    if palavra_invertida == palavra :
+        print ("Palíndromo")
+    else :
+        print ("Não palíndromo")
