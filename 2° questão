@@ -1,0 +1,8 @@
+#recebendo as notas do usuário
+nota_A = float(input())
+nota_B = float(input())
+nota_C = float(input())
+
+#calculando a média das notas
+media = (nota_A + nota_B + nota_C) / 3 
+print(media)
