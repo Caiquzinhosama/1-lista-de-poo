@@ -1,0 +1,31 @@
+#recebendo os números 'a' e 'b'
+a = int(input())
+b = int(input())
+
+#soma entre 'a' e 'b'
+soma = a + b
+print(soma)
+
+#subtração entre 'a' e 'b'
+subtraçao_a = a - b
+print(subtraçao_a)
+
+#subtração entre 'b' e 'a'
+subtraçao_b = b - a
+print(subtraçao_b)
+
+#produto entre 'a' e 'b'
+produto = a * b
+print(produto)
+
+#divisão entre 'a' e 'b'
+divisao = a / b
+print(divisao)
+
+#quociente inteiro entre a divisão de 'a' e 'b'
+quociente = a // b
+print(quociente)
+
+#resto da divisão entre 'a' e 'b'
+resto = a % b
+print(resto)
