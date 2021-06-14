@@ -1,0 +1,67 @@
+#função pra verificar o tabuleiro
+def verificar(x):
+
+#verificar as condições de vitoria ou empate
+    if (x[0][1] == x[1][1] and x[1][1] == x[2][1] and x[0][1] != 1):
+        if (x[0][1] == 0):
+            print("Bolinha Ganha")
+        elif (x[0][1] == 2):
+            print("X ganha")
+
+    elif (x[0][0] == x[1][0] and x[1][0] == x[2][0] and x[0][0] != 1):
+        if (x[0][0] == 0):
+            print("Bolinha Ganha")
+        elif (x[0][0] == 2):
+            print("X ganha")
+
+    elif (x[0][2] == x[1][2] and x[1][2] == x[2][2] and x[0][2] != 1):
+        if (x[0][2] == 0):
+            print("Bolinha Ganha")
+        elif (x[0][2] == 2):
+            print("X ganha")
+
+    elif (x[0][0] == x[1][1] and x[2][2] == x[1][1] and x[0][0] != 1):
+        if (x[0][0] == 0):
+            print("Bolinha Ganha")
+        elif (x[0][0] == 2):
+            print("X ganha")
+    elif (x[2][0] == x[1][1] and x[1][1] == x[0][2] and x[2][0] != 1):
+        if (x[2][0] == 0):
+            print("Bolinha Ganha")
+        elif (x[2][0] == 2):
+            print("X ganha")
+    elif (x[0][0] == x[0][1] and x[0][1] == x[0][2] and x[0][0] != 1):
+        if (x[0][0] == 0):
+            print("Bolinha Ganha")
+        elif (x[0][0] == 2):
+            print("X ganha")
+    elif (x[0][0] == x[0][1] and x[0][1] == x[0][2] and x[0][0] != 1):
+        if (x[0][0] == 0):
+            print("Bolinha Ganha")
+        elif (x[0][0] == 2):
+            print("X ganha")
+    elif (x[1][0] == x[1][1] and x[1][1] == x[1][2] and x[1][0] != 1):
+        if (x[1][0] == 0):
+            print("Bolinha Ganha")
+        elif (x[1][0] == 2):
+            print("X ganha")
+    elif (x[2][0] == x[2][1] and x[2][1] == x[2][2] and x[2][0] != 1):
+        if (x[2][0] == 0):
+            print("Bolinha Ganha")
+        elif (x[2][0] == 2):
+            print("X ganha")
+    else :
+        print("Velha")
+
+
+
+# 0 = Jogador Bolinha
+# 1 = Vazio
+# 2 = Jogador X
+
+#cahamada da função verificar
+tabuleiro = [[1,1,1],
+            [1,1,1],
+            [1,1,1]]
+
+verificar(tabuleiro)
