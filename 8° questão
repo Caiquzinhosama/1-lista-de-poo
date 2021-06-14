@@ -1,0 +1,16 @@
+#recebendo o vetor e o código
+vetor = input()
+codigo = int(input())
+
+#verificando se o vetor tem até 5 dígitos
+for i in range (len(vetor), 6):
+
+#interações com o codigo dado
+    if codigo == 0 :
+        break
+    elif codigo == 1:
+        print(vetor)
+    elif codigo == 2 :
+        print(vetor[::-1])
+    else :
+        print("Código invalido")
