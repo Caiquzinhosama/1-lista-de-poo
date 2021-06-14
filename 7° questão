@@ -1,0 +1,7 @@
+#recebendo as duas strings
+primeira_string = input()
+segunda_string = input()
+
+#substituir as ocorrências da 2° string na 1°
+final = primeira_string.replace(segunda_string, '*')
+print(final)
